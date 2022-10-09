@@ -8,3 +8,7 @@ h1#title-heading {
     font-weight: 900;
     line-height: 1.5;
 }
+
+.container-fluid {
+    padding: 3% 15%;
+}
