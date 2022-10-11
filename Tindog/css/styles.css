@@ -127,3 +127,41 @@ h2 {
 .pricing-column {
     padding: 3% 2%;
 }
+
+/* last section */
+
+#cta {
+    color: white;
+    background-color: #ff4c68;
+    padding: 7% 15%;
+    text-align: center;
+}
+
+.cta-heading {
+    font-family: "Montserrat";
+    font-weight: bold;
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+
+/* footer */
+
+#footer {
+    padding: 7% 15%;
+    background-color: white;
+}
+.footer-logo {
+    margin: 20px 10px;
+}
+
+/* media queries */
+
+@media (max-width: 991px) {
+    #title {
+        text-align: center;
+    }
+    .mockup-image {
+        position: static;
+        transform: rotate(0deg);
+    }
+}
